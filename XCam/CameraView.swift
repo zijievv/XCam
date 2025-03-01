@@ -52,7 +52,6 @@ struct CameraView: View {
                             .shadow(radius: 1, y: 1)
                     }
                     .tint(.white)
-                    .frame(maxWidth: .infinity)
                 } else {
                     Button("Drop") {
                         Task {
@@ -62,7 +61,6 @@ struct CameraView: View {
                     }
                     .buttonStyle(.bordered)
                     .tint(.white)
-                    .frame(maxWidth: .infinity)
                     .shadow(radius: 1, y: 1)
                     .frame(height: 60)
                 }
